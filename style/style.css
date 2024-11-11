@@ -5,30 +5,36 @@
     box-sizing: border-box;
   }
   
-  /* Body styling */
+  /* Body  */
   body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #e0b2dd;
+    color: #57c7e6;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
   }
   
-  /* Header styling */
+  /* Header  */
   header {
-    margin-bottom: 20px;
+    background-color: #304463;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+  
+   
+
   }
   
   header h1 {
     font-size: 2em;
-    color: #00;
+    color: #b464f6;
     text-align: center;
     margin-bottom: 10px;
   }
   
-  /* Search form styling */
+  /* Search form  */
   #search-form {
     display: flex;
     gap: 10px;
@@ -46,18 +52,18 @@
   #search-form button {
     padding: 8px 16px;
     font-size: 1em;
-    color: white;
-    background-color: #007bff;
+    color: rgb(234, 223, 231);
+    background-color: #ff00e1;
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
   
   #search-form button:hover {
-    background-color: #0056b3;
+    background-color: #00b354;
   }
   
-  /* Search history styling */
+  /* Search history  */
   #history {
     width: 100%;
     max-width: 400px;
@@ -77,16 +83,16 @@
   }
   
   .history-btn:hover {
-    background-color: #d0d0d0;
+    background-color: #c690b7;
   }
   
-  /* Today’s weather container */
+  /* Today’s weather  */
   #today .card {
     width: 100%;
     max-width: 400px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #007bff;
+    background-color: #ff00e6;
     color: white;
     padding: 20px;
     margin-bottom: 20px;
@@ -98,7 +104,7 @@
     height: 50px;
   }
   
-  /* Forecast styling */
+  /* Forecast  */
   #forecast {
     display: flex;
     flex-wrap: wrap;
@@ -113,12 +119,12 @@
   
   .five-day-card .card {
     border-radius: 8px;
-    background-color: #007bff;
+    background-color: #931f61;
     color: white;
     padding: 10px;
   }
   
-  /* Text styling */
+  /* Text  */
   .card-title {
     font-size: 1.2em;
     margin-bottom: 8px;
@@ -128,7 +134,7 @@
     font-size: 1em;
   }
   
-  /* Responsive Design */
+  /* Responsiveness */
   @media (max-width: 600px) {
     #search-input {
       width: 100%;
