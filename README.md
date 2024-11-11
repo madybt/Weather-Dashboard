@@ -38,5 +38,10 @@ A simple weather dashboard application that allows travelers to view the current
 
 This app uses the [OpenWeather API](https://openweathermap.org/api) to fetch weather data. The key endpoints are:
 
-Below are the links to the Github and deployed app
+## Below are the links to the Github and deployed app
+
+# Github Repo
 https://github.com/madybt/Weather-Dashboard
+
+# Deployed application
+https://madybt.github.io/Weather-Dashboard/
