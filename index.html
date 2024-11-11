@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css">
+
+  <title>Weather Dashboard</title>
+
+  <header>
+    <h1>Weather Dashboard</h1> 
+  </header>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/dayjs.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/plugin/utc.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/plugin/timezone.min.js"></script>
+</head>
+<body>
+  <form id="search-form">
+    <input type="text" id="search-input" placeholder="Enter city" required />
+    <button type="submit">Search</button>
+  </form>
+  <div id="history"></div>
+  <div id="today"></div>
+  <div id="forecast" class="row"></div>
+
+
+  <script src="../Weather-Dashboard/script.js"></script>
+</body>
+</html>
