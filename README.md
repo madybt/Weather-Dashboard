@@ -38,9 +38,5 @@ A simple weather dashboard application that allows travelers to view the current
 
 This app uses the [OpenWeather API](https://openweathermap.org/api) to fetch weather data. The key endpoints are:
 
-- **Current Weather**: Fetches current weather data for the specified city.
-- **5-Day Forecast**: Fetches the forecast data for the next 5 days for the specified city.
-
 Below are the links to the Github and deployed app
 https://github.com/madybt/Weather-Dashboard
-//
